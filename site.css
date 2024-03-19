@@ -1,0 +1,88 @@
+.header {
+    background-color: #c1c1c1;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header .container .wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.header .container .wrapper-header .contact {
+    display: flex;
+    font-size: 20px;
+}
+
+.header .container .wrapper-header .login {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner .container {
+    display: flex;
+}
+
+.banner .container img {
+    width: 500px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    border: 2px solid #333;
+    font-size: 20px;
+}
+
+.contact img {
+    height: 40px; /* Điều chỉnh kích thước của ảnh */
+    margin-right: 5px; /* Khoảng cách giữa các ảnh */
+}
+article .container {
+    display: flex;
+}
+
+article .container .trang-nhat {
+    width: 50%;
+    padding: 0 5px;
+}
+
+article .container .trang-nhat h2 {
+    color: #ff008d;
+}
+
+article .container .trang-nhat h3 {
+    color: #ff008d;
+    font-size: 30px;
+}
+
+article .container .trang-nhat img {
+    width: 99%;
+}
+
+article .container .trang-hai {
+    width: 20%;
+    padding: 0 5px;
+}
+
+article .container .trang-hai h3 {
+    font-size: 25px;
+}
